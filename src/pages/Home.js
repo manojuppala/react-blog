@@ -36,9 +36,10 @@ const Home = () => {
       <Code
         snippet={`# this is hello world! 
 int main(){
-cout<<"hello world!";
-return 0;
+  cout<<"hello world!";
+  return 0;
 }`}
+        lang="c"
       />
       <blockquote>
         My installable GNU/Linux dotfiles running XMonad on Linux Mint. These dotfiles are my

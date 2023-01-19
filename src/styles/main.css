@@ -60,11 +60,13 @@ body::-webkit-scrollbar {
 
 /* code snippets */
 pre.prettyprint {
-  border-radius: 6px;
   max-width: var(--pre-max-width);
-  padding: 16px;
   font-size: 85%;
   font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+}
+
+.hljs {
+  background: #2d333b !important;
 }
 
 .pre-wrapper {

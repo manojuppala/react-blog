@@ -1,9 +1,9 @@
 import React from "react";
 
-const Code = ({ snippet }) => {
+const Code = ({ snippet, lang }) => {
   return (
     <pre className="prettyprint">
-      <code className="language-c">{snippet}</code>
+      <code className={lang ? `language-${lang}` : ``}>{snippet}</code>
     </pre>
   );
 };
