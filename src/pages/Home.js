@@ -15,9 +15,9 @@ const Home = () => {
       <p className="h4 text-primary">Videos</p>
       <p className="text-light">
         For thousands of years, people have known that the best way to understand a concept is to
-        explain it to someone else. So i make tutorials on
-        <a href="https://www.youtube.com/thedataguy">YouTube</a>
-        and <a href="https://odysee.com/@thedataguy:7">Odysee</a>. Most of my videos concentrate on
+        explain it to someone else. So i make tutorials on{" "}
+        <a href="https://www.youtube.com/thedataguy">YouTube</a> and{" "}
+        <a href="https://odysee.com/@thedataguy:7">Odysee</a>. Most of my videos concentrate on
         programming, CS concepts and softwares i use. We make computer science tutorials that are
         crafted with dedication and passion. make sure to subscribe if interested in our content.
       </p>
@@ -28,10 +28,9 @@ const Home = () => {
         personal config files for various terminal based applications that i use. They are stored
         here for convenience so that anyone who wish to configure their machine like mine may
         quickly access them to install. For more info and installing dotfiles whithout any chaos
-        follow this
-        <a href="https://github.com/manojuppala/dotfiles">Installation guide</a>. To view my
-        dotfiles visit dotfiles on Github. press <kbd>shift</kbd> + <kbd>ctrl</kbd> + <kbd>p</kbd>
-        <code>install</code>
+        follow this <a href="https://github.com/manojuppala/dotfiles">Installation guide</a>. To
+        view my dotfiles visit dotfiles on Github. press <kbd>shift</kbd> + <kbd>ctrl</kbd> +{" "}
+        <kbd>p</kbd> <code>install</code>
       </p>
 
       <pre className="prettyprint">
