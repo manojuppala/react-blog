@@ -1,10 +1,6 @@
 import React from "react";
-import Home from "./pages/Home";
-import Articles from "./pages/Articles";
-import Projects from "./pages/Projects";
-import Opensource from "./pages/Opensource";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import { Home, Articles, Projects, Opensource } from "./pages";
+import { Navbar, Footer } from "./components";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
