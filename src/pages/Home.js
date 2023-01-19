@@ -4,16 +4,16 @@ import { Video } from "../components";
 const Home = () => {
   return (
     <React.Fragment>
-      <p class="h4 text-primary">About</p>
-      <p class="text-light">
+      <p className="h4 text-primary">About</p>
+      <p className="text-light">
         Hi i'm Manoj Uppala. A Open Source enthusiast and budding data scientist with deep interest
         in natural language processing, computer vision and machine learning. I am currently
         pursuing bachelors at Lovely professional university majoring in Computer science and Data
         science as my minor.
       </p>
 
-      <p class="h4 text-primary">Videos</p>
-      <p class="text-light">
+      <p className="h4 text-primary">Videos</p>
+      <p className="text-light">
         For thousands of years, people have known that the best way to understand a concept is to
         explain it to someone else. So i make tutorials on
         <a href="https://www.youtube.com/thedataguy">YouTube</a>
@@ -22,8 +22,8 @@ const Home = () => {
         crafted with dedication and passion. make sure to subscribe if interested in our content.
       </p>
       <Video id="4pGz01s_OZs" />
-      <p class="h4 text-primary">Dotfiles</p>
-      <p class="text-light">
+      <p className="h4 text-primary">Dotfiles</p>
+      <p className="text-light">
         My installable GNU/Linux dotfiles running XMonad on Linux Mint. These dotfiles are my
         personal config files for various terminal based applications that i use. They are stored
         here for convenience so that anyone who wish to configure their machine like mine may

@@ -4,12 +4,12 @@ import image from "../assets/images/articles/image.jpeg";
 const ArticleCard = ({ title, preview, platform, date, tags }) => {
   const url = "file://../assets/images/articles/image.jpeg";
   return (
-    <div class="card text-white bg-dark mb-3 cards-fixed-width card-border anchor-div">
+    <div className="card text-white bg-dark mb-3 cards-fixed-width card-border anchor-div">
       <div>
-        <img class="card-img-top" src={image} alt="Card cap" />
+        <img className="card-img-top" src={image} alt="Card cap" />
       </div>
-      <div class="card-body">
-        <h5 class="card-title text-primary">
+      <div className="card-body">
+        <h5 className="card-title text-primary">
           <b>{title}</b>
         </h5>
         <p className="card-text text-light">

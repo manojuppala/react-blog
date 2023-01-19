@@ -10,8 +10,8 @@ const Video = ({ id }) => {
         title="youtube-video"
         className="embed-responsive-item"
         src={`https://www.youtube.com/embed/${id}?rel=0&fs=0&modestbranding=1&loop=1`}
-        frameborder="0"
-        allowfullscreen
+        frameBorder="0"
+        allowFullScreen
       ></iframe>
     </div>
   );
