@@ -69,6 +69,10 @@ pre.prettyprint {
   background: #2d333b !important;
 }
 
+.code-snippet {
+  padding: 16px !important;
+}
+
 .pre-wrapper {
   position: relative;
   max-width: var(--pre-max-width);
