@@ -1,4 +1,4 @@
-import Badge from "./atoms/Badge";
+import { Badge } from "./atoms";
 import image from "../assets/images/articles/image.jpeg";
 
 const ArticleCard = ({ title, preview, platform, date, tags }) => {

@@ -1,7 +1,5 @@
 import React from "react";
-import Pagination from "../components/Pagination";
-import Searchbar from "../components/Searchbar";
-import ArticleCard from "../components/ArticleCard";
+import { ArticleCard, Pagination, Searchbar } from "../components";
 import articles from "../data/articles.json";
 import "../styles/articles.css";
 
