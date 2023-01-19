@@ -1,9 +1,12 @@
 import React from "react";
 import { ArticleCard, Pagination, Searchbar } from "../components";
-import articles from "../data/articles.json";
+import { useDocumentTitle } from "../utils";
 import "../styles/articles.css";
+import articles from "../data/articles.json";
 
 const Articles = () => {
+  useDocumentTitle("Articles");
+
   return (
     <React.Fragment>
       <Searchbar />

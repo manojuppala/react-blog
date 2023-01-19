@@ -1,5 +1,5 @@
 import React from "react";
-import { Video } from "../components";
+import { Video, Code } from "../components";
 
 const Home = () => {
   return (
@@ -33,13 +33,13 @@ const Home = () => {
         <kbd>p</kbd> <code>install</code>
       </p>
 
-      <pre className="prettyprint">
-        {`# this is hello world!
+      <Code
+        snippet={`# this is hello world! 
 int main(){
-  cout<<"hello world!";
-  return 0;
+cout<<"hello world!";
+return 0;
 }`}
-      </pre>
+      />
       <blockquote>
         My installable GNU/Linux dotfiles running XMonad on Linux Mint. These dotfiles are my
         personal config files for various terminal based applications that i use.
