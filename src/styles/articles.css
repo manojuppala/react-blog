@@ -44,6 +44,7 @@
   white-space: nowrap;
   vertical-align: middle;
   border-radius: 99999px;
+  margin-left: 4px;
 }
 
 .badge.badge-success {
