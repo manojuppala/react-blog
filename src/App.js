@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Home, Articles, Projects, Opensource } from "./pages";
+import { Home, Articles, Projects, Opensource, ArticleTemplate } from "./pages";
 import { Navbar, Footer } from "./components";
 import { Route, Routes } from "react-router-dom";
 import "highlight.js/styles/github-dark-dimmed.css";
@@ -16,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/articles" element={<Articles />} />
+        <Route path="/articles/:id" element={<ArticleTemplate />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/opensource" element={<Opensource />} />
       </Routes>
