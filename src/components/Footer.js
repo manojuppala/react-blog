@@ -11,7 +11,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="h5 pr-3 text-secondary"
           >
-            <i className="fa fa-github"></i>
+            <i className="fa fa-github fa-social"></i>
           </a>
           <a
             href="https://linkedin.com/in/manojuppala/"
@@ -19,7 +19,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="h5 pr-3 text-secondary"
           >
-            <i className="fa fa-linkedin"></i>
+            <i className="fa fa-linkedin fa-social"></i>
           </a>
           <a
             href="https://youtube.com/thedataguy"
@@ -27,7 +27,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="h5 pr-3 text-secondary"
           >
-            <i className="fa fa-youtube"></i>
+            <i className="fa fa-youtube fa-social"></i>
           </a>
           <a
             href="https://stackoverflow.com/users/11874811/manoj"
@@ -35,7 +35,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="h5 pr-3 text-secondary"
           >
-            <i className="fa fa-stack-overflow"></i>
+            <i className="fa fa-stack-overflow fa-social"></i>
           </a>
         </div>
         <span className="text-muted meta-data">

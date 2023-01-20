@@ -4,11 +4,13 @@ const Code = ({ snippet, lang }) => {
   const [btnText, setBtnText] = useState("Copy");
   const codeClass = lang ? `language-${lang} code-snippet` : `code-snippet`;
   const copytext = (text) => {
-    setBtnText("Copied!");
-    navigator.clipboard.writeText(text);
-    setTimeout(() => {
-      setBtnText("Copy");
-    }, 3000);
+    if (btnText !== "Copied!") {
+      setBtnText("Copied!");
+      navigator.clipboard.writeText(text);
+      setTimeout(() => {
+        setBtnText("Copy");
+      }, 3000);
+    }
   };
 
   return (
