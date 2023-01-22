@@ -6,17 +6,17 @@ import CircularProgress from "@mui/material/CircularProgress";
 
 const Home = () => {
   const [posts, setPosts] = useState([]);
-  const [getPosts, { loading, error }] = useLazyQuery(GET_POSTS_QUERY, {
-    variables: { name: "hello" },
-    onCompleted: (data) => {
-      setPosts(data?.home);
-    },
-  });
+  // const [getPosts, { loading, error }] = useLazyQuery(GET_POSTS_QUERY, {
+  //   variables: { name: "hello" },
+  //   onCompleted: (data) => {
+  //     setPosts(data?.home);
+  //   },
+  // });
 
-  useEffect(() => {
-    getPosts();
-  }, []);
-
+  // useEffect(() => {
+  //   getPosts();
+  // }, []);
+  const loading = true;
   return (
     <React.Fragment>
       {loading ? (
