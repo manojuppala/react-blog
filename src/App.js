@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     hljs.highlightAll();
   }, []);
-  console.log(process.env.REACT_APP_HASURA_URI, process.env.REACT_APP_HASURA_ADMIN_SECRET);
+
   const httpLink = createHttpLink({
     uri: process.env.REACT_APP_HASURA_URI,
   });
@@ -30,7 +30,7 @@ function App() {
   });
 
   return (
-    <React.Fragment>
+    <ApolloProvider client={client}>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -40,7 +40,7 @@ function App() {
         <Route path="/opensource" element={<Opensource />} />
       </Routes>
       <Footer />
-    </React.Fragment>
+    </ApolloProvider>
   );
 }
 
