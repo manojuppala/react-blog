@@ -4,8 +4,8 @@ import "./styles/articles.css";
 
 const articles = [
   {
-    date: "18-8-2019",
     title: "My first blog",
+    date: "Aug 18, 2020",
     preview:
       "This is my first blog on this site. this website is under development. stay tuned for more content.",
     tags: ["linux", "tech"],

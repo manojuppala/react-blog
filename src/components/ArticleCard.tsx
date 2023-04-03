@@ -30,7 +30,7 @@ const ArticleCard = ({
           </a>
         </p>
         <div className="d-flex justify-content-between align-items-center">
-          <small className="text-muted">Aug 18, 2020 • 2min read</small>
+          <small className="text-muted">{date} • 2min read</small>
           <div>
             {tags?.map((tag, id) => {
               return <Badge key={id} text={tag} />;
